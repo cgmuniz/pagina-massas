@@ -5,7 +5,7 @@ function Rodape() {
     <div className="Rodape">
       <div className="ConteudoRodape">
         <div style={{textAlign:"center"}}>
-          <p className="textoRodape" style={{fontSize: 14}}>© 2013 a 2023 - Universidade Federal de São Paulo - Unifesp</p>
+          <p className="textoRodape" style={{fontSize: 14}}>© 2013 a {(new Date().getFullYear())} - Universidade Federal de São Paulo - Unifesp</p>
           <p style={{fontSize: 12}}>Rua Sena Madureira, n.º 1.500 - Vila Clementino - São Paulo - SP - CEP: 04021-001</p>
         </div>
       </div>
