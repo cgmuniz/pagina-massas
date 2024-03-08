@@ -1,0 +1,16 @@
+#Header {
+    width: 100%;
+    background-color:#215a36;
+}
+
+#tituloUnifesp {
+    font-size: 2.3em;
+    font-family: Cinzel, "Sans Serif";
+    color: white;
+}
+
+@media (max-width: 950px) {
+    #tituloUnifesp {
+        display: none;
+    }
+}

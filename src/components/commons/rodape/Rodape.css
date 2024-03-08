@@ -1,0 +1,13 @@
+.Rodape {
+    background-color: #215a36;
+    margin-bottom: 0;
+    color: white;
+    width: 100%;
+    bottom: -270px;
+    position: absolute;
+  }
+  
+  .ConteudoRodape {
+    padding: 50px;
+    padding-bottom: 30px;
+}

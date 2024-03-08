@@ -1,0 +1,77 @@
+.Livro{
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 340px;
+    max-height: 500px;
+    border-radius: 5px;
+}
+
+.Livro:hover {
+    background-color: #EEEEEE;
+}
+
+.imgLivro{
+    object-fit: cover;
+    border-radius: 15px;
+    max-width: 300px;
+    max-height: 400px;
+    border: 8px solid rgb(249, 249, 249);
+}
+
+.linkLivros {
+    text-decoration: none;
+    color: black;
+}
+
+.txtLivro {
+    text-align: center;
+}
+
+
+@media (max-width: 1000px) {
+    .Livro{
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 240px;
+        max-height: 500px;
+        border-radius: 5px;
+    }
+
+    .linkLivros {
+        text-decoration: underline;
+    }
+    
+    .imgLivro{
+        object-fit: cover;
+        border-radius: 5px;
+        max-width: 240px;
+        max-height: 300px;
+        border: 8px solid rgb(249, 249, 249);
+    }
+
+  }
+
+  @media (max-width: 480px) {
+    .Livro{
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 280px;
+        max-height: 425px;
+        border-radius: 5px;
+    }
+
+    .linkLivros {
+        text-decoration: underline;
+    }
+    
+    .imgLivro{
+        object-fit: cover;
+        border-radius: 5px;
+        max-width: 240px;
+        max-height: 300px;
+        border: 8px solid rgb(249, 249, 249);
+    }
+  }

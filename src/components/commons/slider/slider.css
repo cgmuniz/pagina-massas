@@ -1,0 +1,89 @@
+.flexCards {
+    width: 100%;
+    max-width: 450px;
+    max-height: 540px;
+    border-radius: 8px;
+    background-color:rgb(249, 249, 249);
+}
+
+.imgCards {
+    height: 220px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2); 
+}
+
+@media (max-width: 1300px)  {
+    .flexCards {
+        max-height: 500px;
+    }
+
+    .imgCards {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px)  {
+    .imgCards {
+        height: 170px;
+    }
+}
+
+.swiper {
+    padding: 55px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #718096;
+}
+
+.swiper-button-prev {
+    top: var(--swiper-navigation-top-offset, 0%);
+    left: var(--swiper-navigation-sides-offset, 0px);
+    width: calc(var(--swiper-navigation-size) / 44 * 27 * 2);
+    color: transparent;
+    height: 100%;
+}
+
+.swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 0%);
+    right: var(--swiper-navigation-sides-offset, 0px);
+    width: calc(var(--swiper-navigation-size) / 44 * 27 * 2);
+    color: transparent;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .swiper-button-prev {
+        top: var(--swiper-navigation-top-offset, 0%);
+        left: var(--swiper-navigation-sides-offset, 0px);
+        width: calc(var(--swiper-navigation-size) / 44 * 27);
+        color: transparent;
+        height: 100%;
+    }
+    
+    .swiper-button-next {
+        top: var(--swiper-navigation-top-offset, 0%);
+        right: var(--swiper-navigation-sides-offset, 0px);
+        width: calc(var(--swiper-navigation-size) / 44 * 27);
+        color: transparent;
+        height: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .swiper-button-prev {
+        width: calc(var(--swiper-navigation-size) / 44 * 27);
+    }
+    
+    .swiper-button-next {
+        top: var(--swiper-navigation-top-offset, 0%);
+        right: var(--swiper-navigation-sides-offset, 0px);
+        width: calc(var(--swiper-navigation-size) / 44 * 27);
+        color: transparent;
+        height: 100%;
+    }
+  }

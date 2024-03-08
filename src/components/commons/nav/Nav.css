@@ -1,0 +1,38 @@
+.Nav {
+    margin-bottom: 80px;
+    background-color:#2a7445;
+}
+
+#visitasMenu {
+    bottom: 10px;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+
+#offcanvasNavbar-expand-false {
+    background-color: #caffca;
+}
+
+@media (max-width: 1000px)  {
+    .nav-link {
+        padding: 10px !important;
+      }
+
+    .nav-link.active{
+        border-radius: 8px;
+        color: white !important;
+        background-color:#3b743b86;
+    }
+}
+
+@media (max-width: 480px)  {
+    .Nav {
+        margin-bottom: 60px;
+    }
+}
+
+.btn-close {
+    --bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e") !important;
+    --bs-btn-close-opacity: 1 !important;
+}

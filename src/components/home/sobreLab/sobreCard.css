@@ -1,0 +1,21 @@
+.flexSobre {
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color:#F5F5F5;
+}
+
+@media (max-width: 768px) {
+    .imgSobre{
+        width: 100% !important;
+        height: 300px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .imgSobre{
+        width: 100% !important;
+        height: 250px;
+    }
+}
