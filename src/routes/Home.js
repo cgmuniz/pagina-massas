@@ -12,7 +12,7 @@ function Home(){
     return(
         <div>
             <div>
-                <h1 className='Corpo'>Laboratório de Espectrometria de Massas Aplicada à Biomoléculas (LEMBio)</h1>
+                <h1 className='Corpo' style={{textAlign:'center'}}>Laboratório de Espectrometria de Massas Aplicada à Biomoléculas (LEMBio)</h1>
                 <OpeningCarousel />
             </div>
             <div style={{marginBottom:120}}>
