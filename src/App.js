@@ -18,6 +18,7 @@ export default class App extends React.Component{
   
   exibirVisitas() {
     fetch("http://localhost:8000/")
+//    fetch("/api/index.php")
       .then((response) => response.text())
       .then((responseText) => {
         const numero = parseInt(responseText, 10);
