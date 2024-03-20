@@ -28,6 +28,24 @@
     text-align: center;
 }
 
+@media (max-width: 1660px) {
+    #LivrosDiv .swiper-button-prev {
+        top: var(--swiper-navigation-top-offset, 0%);
+        left: var(--swiper-navigation-sides-offset, 0px);
+        width: calc(var(--swiper-navigation-size) / 44 * 27);
+        color: transparent;
+        height: 100%;
+    }
+    
+    #LivrosDiv .swiper-button-next {
+        top: var(--swiper-navigation-top-offset, 0%);
+        right: var(--swiper-navigation-sides-offset, 0px);
+        width: calc(var(--swiper-navigation-size) / 44 * 50);
+        color: transparent;
+        height: 100%;
+    }
+  }
+
 
 @media (max-width: 1000px) {
     .Livro{
