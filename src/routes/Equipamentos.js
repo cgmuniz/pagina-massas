@@ -6,7 +6,9 @@ import micro from '../img/equipamentos/microTOFII.jpg'
 import amazonETD from '../img/equipamentos/amazonETD.png'
 import Modal from 'react-modal'
 
-import data from '../data/components-mock.json';
+import data from '../data/components-mock.json'
+
+import { CgClose } from "react-icons/cg"
 
 Modal.setAppElement('#root')
 
@@ -56,7 +58,9 @@ function Equipamentos () {
                 overlayClassName="modal-overlay"
                 className="modal-content"
             >
-                <p onClick={closeModal} className="x">X</p>
+                <p onClick={closeModal} className="x">
+                    <CgClose size='35px' className="closeIcon"/>
+                </p>
                 <Center>
                     <Flex direction={tamanho < 3 && 'column'} id="flexEquip"
                         borderRadius={0}
